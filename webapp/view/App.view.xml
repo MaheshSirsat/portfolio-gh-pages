@@ -1,0 +1,22 @@
+<mvc:View controllerName="com.portfolio.controller.App"
+    	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:layout="sap.ui.layout" >
+    <App id="app">
+    <Button
+        activeIcon=""
+        ariaHasPopup="None"
+        enabled="true"
+        icon="empty string"
+        iconDensityAware="true"
+        iconFirst="true"
+        text="empty string"
+        textDirection="Inherit"
+        type="Default"
+        width=""
+    >
+        
+    </Button>
+    </App>
+</mvc:View>

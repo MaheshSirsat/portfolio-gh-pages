@@ -1,0 +1,34 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Mahesh Sirsat - Portfolio",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "@sap/ux-ui5-tooling": "1"
+  },
+  "scripts": {
+    "start": "ui5 serve --config=ui5.yaml  --open index.html", 
+    "build:ui": "run-s  build",
+    "test": "run-s lint karma",
+    "karma-ci": "karma start karma-ci.conf.js",
+    "clearCoverage": "shx rm -rf coverage",
+    "karma": "run-s clearCoverage karma-ci",
+    "lint": "eslint .",
+    "serve": "ui5 serve --config=ui5.yaml",
+    "build": "ui5 build --config=ui5.yaml --clean-dest --dest dist --include-task=generateManifestBundle"
+ 
+  },
+  "sapuxLayer": "CUSTOMER_BASE",
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-livereload"
+    ]
+  }
+}
