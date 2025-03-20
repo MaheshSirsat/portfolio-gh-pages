@@ -5,7 +5,7 @@
 	xmlns:core="sap.ui.core"
 	xmlns:layout="sap.ui.layout"
 	height="100%">
-    <App id="app">
+    <m:App id="app">
      <ObjectPageLayout
 		showTitleInHeaderContent="true"
 		showEditHeaderButton="true"
@@ -155,5 +155,5 @@
 			/>
 		</sections>
 	</ObjectPageLayout>
-    </App>
+    </m:App>
 </mvc:View>
