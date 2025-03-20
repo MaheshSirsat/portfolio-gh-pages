@@ -1,0 +1,42 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+    xmlns:l="sap.ui.layout.form"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Professional Experience"
+        importance="Medium"
+    >
+        <subSections>
+            <ObjectPageSubSection
+                title="IBM"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:VBox class="sapUiMediumMargin">
+                        <l:SimpleForm
+                            layout="ResponsiveGridLayout"
+                            editable="false"
+                        >
+                            <m:Label text="Organization" />
+                            <m:Text text="IBM" />
+                            <m:Label text="Duration" />
+                            <m:Text text="October 2023 - Present" />
+                            <m:Label text="Role" />
+                            <m:Text text="SAP UI5 / Fiori BTP Consultant" />
+                            <m:Label text="Location" />
+                            <m:Text text="Ahmedabad, Gujarat" />
+                        </l:SimpleForm>
+                    </m:VBox>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection>
+                <blocks>
+                    <m:VBox />
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>

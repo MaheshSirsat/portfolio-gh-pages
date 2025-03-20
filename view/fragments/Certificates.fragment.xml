@@ -1,0 +1,96 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Skills"
+        importance="Medium"
+    >
+        <subSections>
+            <ObjectPageSubSection
+                title="Certifications"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:List>
+                        <m:CustomListItem>
+                            <m:HBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                            >
+                                <m:HBox alignItems="Center">
+                                    <m:Image
+                                        class="sapUiSmallMargin"
+                                        src="{/rootPath}/utils/fiori_cert.png"
+                                        width="110px"
+                                    />
+                                    <m:Text
+                                        text="SAP Certified Development Associate - SAP Fiori Application Developer"
+                                        class="sapUiSmallMarginBegin"
+                                    />
+                                </m:HBox>
+                                <m:Button
+                                    type="Transparent"
+                                    icon="sap-icon://display-more"
+                                    tooltip="Open Certification"
+                                    press="onLinkPress($controller,$event,${/Link/fiori_cert})"
+                                />
+                            </m:HBox>
+                        </m:CustomListItem>
+                        <m:CustomListItem>
+                            <m:HBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                            >
+                                <m:HBox alignItems="Center">
+                                    <m:Image
+                                        class="sapUiSmallMargin"
+                                        src="{/rootPath}/utils/capm_cert.png"
+                                        width="110px"
+                                    />
+                                    <m:Text
+                                        text="SAP Certified Associate - Backend Developer - SAP CAPM"
+                                        class="sapUiSmallMarginBegin"
+                                    />
+                                </m:HBox>
+                                <m:Button
+                                    type="Transparent"
+                                    icon="sap-icon://display-more"
+                                    tooltip="Open Certification"
+                                    press="onLinkPress($controller,$event,${/Link/capm_cert})"
+                                />
+                            </m:HBox>
+                        </m:CustomListItem>
+                        <m:CustomListItem>
+                            <m:HBox
+                                alignItems="Center"
+                                justifyContent="SpaceBetween"
+                            >
+                                <m:HBox alignItems="Center">
+                                    <m:Image
+                                        class="sapUiSmallMargin"
+                                        src="{/rootPath}/utils/udemy_cert.jpg"
+                                        width="110px"
+                                    />
+                                    <m:Text
+                                        text="Learn SAP CAPM - Udemy"
+                                        class="sapUiSmallMarginBegin"
+                                    />
+                                </m:HBox>
+                                <m:Button
+                                    type="Transparent"
+                                    icon="sap-icon://display-more"
+                                    tooltip="Open Certification"
+                                    press="onLinkPress($controller,$event,${/Link/udemy_cert})"
+                                />
+                                <!-- ude.my/UC-69d9c798-aab3-435c-8295-21d957ab0ac6 -->
+                            </m:HBox>
+                        </m:CustomListItem>
+                    </m:List>
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>

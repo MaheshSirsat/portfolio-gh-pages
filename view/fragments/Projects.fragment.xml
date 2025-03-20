@@ -1,0 +1,139 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+    xmlns:l="sap.ui.layout.form"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Projects"
+        importance="Medium"
+    >
+        <subSections>
+            <!-- Project 1 -->
+            <ObjectPageSubSection
+                title="Letter of Credit (Amendment) – (IBM) (January 2025 - February 2025)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Group" />
+                        <m:Label text="Role" />
+                        <m:Text text="SAP BTP CAPM UI5/Fiori Consultant" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, CAPM, WorkZone, Job Scheduler, Mail Trigger" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project1roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="Letter of Credit - T &#38; M Support (IBM) (November 2024 - Present)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Group" />
+                        <m:Label text="Role" />
+                        <m:Text text="SAP BTP CAPM UI5/Fiori Consultant" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, CAPM ,Flask(Python)
+                               , WorkZone" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project2roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="ShopFloor Automation - Blade T &#38; M Support (IBM) (September 2024 - Present)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Green Energy (AGEL)" />
+                        <m:Label text="Role" />
+                        <m:Text text="Sap BTP UI5/Fiori Consultant" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, CAPM ,Flask(Python)" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project3roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="ShopFloor Automation – NHD (IBM) (September 2024 – December 2024)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Green Energy (AGEL)" />
+                        <m:Label text="Role" />
+                        <m:Text text="Sap BTP UI5/Fiori Consultant" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, CAPM ,Flask(Python)
+                               ,Jira" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project4roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="ShopFloor Automation – Blade (IBM) (March 2024 – September 2024)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Green Energy (AGEL)" />
+                        <m:Label text="Role" />
+                        <m:Text text="Sap BTP UI5/Fiori Consultant" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, CAPM , Sap Business Process Automation,Flask(Python)
+                               ,Cloud Identity Service ,Postman,Jira" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project5roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="NFA Support (IBM) (February 2024-March 2024)"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <l:SimpleForm
+                        layout="ResponsiveGridLayout"
+                        editable="false"
+                    >
+                        <m:Label text="Client" />
+                        <m:Text text="Adani Green Energy (AGEL)" />
+                        <m:Label text="Role" />
+                        <m:Text text="Sap BTP UI5/Fiori Support" />
+                        <m:Label text="Tools &#38; Technology" />
+                        <m:Text text="SAP UI5/Fiori, JavaScript" />
+                        <m:Label text="Roles &#38; Responsibilities" />
+                        <m:FormattedText htmlText="{/project6roles}" />
+                    </l:SimpleForm>
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>

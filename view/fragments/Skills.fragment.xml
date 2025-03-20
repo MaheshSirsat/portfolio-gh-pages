@@ -1,0 +1,60 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Skills"
+        importance="Medium"
+    >
+        <subSections>
+            <ObjectPageSubSection
+                title="SAP BTP"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:List>
+                        <m:StandardListItem title="Fiori/UI5" />
+                        <m:StandardListItem title="CAPM (Cloud Application Programming Model)" />
+                        <m:StandardListItem title="SAP BTP Administration" />
+                        <m:StandardListItem title="Business Process Automation (Workflow)" />
+                        <m:StandardListItem title="SAP Build Work Zone" />
+                    </m:List>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="Programming Languages"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:List>
+                        <m:StandardListItem title="Python" />
+                    </m:List>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="API"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:List>
+                        <m:StandardListItem title="Rest API" />
+                    </m:List>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection
+                title="Tools"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:List>
+                        <m:StandardListItem title="Jira" />
+                        <m:StandardListItem title="Postman" />
+                        <m:StandardListItem title="Business Application Studio" />
+                    </m:List>
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>

@@ -1,22 +1,159 @@
 <mvc:View controllerName="com.portfolio.controller.App"
-    	displayBlock="true"
-	xmlns="sap.m"
-	xmlns:mvc="sap.ui.core.mvc"
-	xmlns:layout="sap.ui.layout" >
+    	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.uxap"
+	xmlns:m="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:layout="sap.ui.layout"
+	height="100%">
     <App id="app">
-    <Button
-        activeIcon=""
-        ariaHasPopup="None"
-        enabled="true"
-        icon="empty string"
-        iconDensityAware="true"
-        iconFirst="true"
-        text="empty string"
-        textDirection="Inherit"
-        type="Default"
-        width=""
-    >
-        
-    </Button>
+     <ObjectPageLayout
+		showTitleInHeaderContent="true"
+		showEditHeaderButton="true"
+		headerContentPinned="false"
+		upperCaseAnchorBar="false"
+	>
+		<!-- Header Title -->
+		<headerTitle>
+			<ObjectPageDynamicHeaderTitle>
+				<expandedHeading>
+					<m:Title
+						text="Mahesh Sirsat"
+						wrapping="true"
+					/>
+				</expandedHeading>
+				<snappedHeading>
+					<m:FlexBox
+						fitContainer="true"
+						alignItems="Center"
+					>
+						<m:Avatar
+							class="sapUiSmallMarginEnd"
+							src="{/rootPath}/utils/profile.png"
+							displaySize="L"
+						/>
+						<m:VBox>
+							<m:Title
+								text="Mahesh Sirsat"
+								wrapping="true"
+							/>
+							<m:Text text="SAP BTP Consultant" />
+						</m:VBox>
+					</m:FlexBox>
+				</snappedHeading>
+				<expandedContent>
+					<m:Text text="SAP BTP Consultant" />
+				</expandedContent>
+				<snappedContent>
+					<!-- <m:Text text="SAP BTP Consultant" /> -->
+				</snappedContent>
+				<snappedTitleOnMobile>
+					<!-- <m:Title text="SAP BTP Consultant" /> -->
+				</snappedTitleOnMobile>
+				<actions>
+					<m:Button
+						icon="sap-icon://detail-view"
+						type="Transparent"
+						text="View Resume"
+						press="onViewResumeButtonPress"
+					/>
+					<m:Button
+						icon="sap-icon://download"
+						type="Emphasized"
+						text="Download Resume"
+						press="onDownloadResumeButtonPress"
+					/>
+				</actions>
+			</ObjectPageDynamicHeaderTitle>
+		</headerTitle>
+		<headerContent>
+			<m:FlexBox
+				wrap="Wrap"
+				fitContainer="true"
+			>
+				<m:Avatar
+					class="sapUiSmallMarginEnd"
+					src="{/rootPath}/utils/profile.png"
+					displaySize="L"
+				/>
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:Label text="+91 9850087347" />
+					<m:Label text="maheshsirsat2001@gmail.com" />
+				</layout:VerticalLayout>
+				<layout:HorizontalLayout class="sapUiSmallMarginBeginEnd">
+					<m:Image
+						height="20px"
+						press="onLinkPress($controller,$event,${/Link/Github})"
+						src="{/rootPath}/utils/github.png"
+						class="sapUiSmallMarginBeginEnd"
+					/>
+					<m:Image
+						height="20px"
+						press="onLinkPress($controller,$event,${/Link/LinkedIn})"
+						class="sapUiSmallMarginBeginEnd"
+						src="{/rootPath}/utils/linkedin.png"
+					/>
+					<m:Image
+						height="20px"
+						class="sapUiSmallMarginBeginEnd"
+						press="onLinkPress($controller,$event,${/Link/youtube})"
+						src="{/rootPath}/utils/youtube.png"
+					/>
+				</layout:HorizontalLayout>
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:Label text="Hello! I am Mahesh, a SAP BTP Consultant, specializing in  UI5/Fiori, CAP and Cloud Integration" />
+				</layout:VerticalLayout>
+				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
+					<m:HBox alignItems="Center">
+						<m:Button
+							type="Transparent"
+							icon="sap-icon://map"
+						/>
+						<m:Label text="Ahmedabad, Gujarat" />
+					</m:HBox>
+				</layout:VerticalLayout>
+			</m:FlexBox>
+		</headerContent>
+		<sections>
+			<ObjectPageSection
+				titleUppercase="false"
+				title="Profile Overview"
+			>
+				<subSections>
+					<ObjectPageSubSection>
+						<blocks>
+							<core:Fragment
+								fragmentName="com.portfolio.portfolio.view.fragments.profileOverview"
+								type="XML"
+							/>
+						</blocks>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Skills"
+				type="XML"
+			/>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Experience"
+				type="XML"
+			/>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Achievments"
+				type="XML"
+			/>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Certificates"
+				type="XML"
+			/>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Projects"
+				type="XML"
+			/>
+			<core:Fragment
+				fragmentName="com.portfolio.portfolio.view.fragments.Education"
+				type="XML"
+			/>
+		</sections>
+	</ObjectPageLayout>
     </App>
 </mvc:View>

@@ -1,0 +1,57 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Achievements"
+        importance="Medium"
+    >
+        <subSections>
+            <ObjectPageSubSection
+                title="Achievements"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:VBox class="sapUiMediumMargin">
+                        <m:List headerText="Appreciations">
+                            <m:StandardListItem
+                                title="Client"
+                                description="Received appreciation for optimizing the Letter of Credit project, reducing turnaround time for AGEL from 10-15 days to 7-12 days and for ANIL from 15-20 days to 9-14 days per request. (February 2025)"
+                            />
+                            <m:StandardListItem
+                                title="Business Manager"
+                                description="Recognized for a can-do attitude, positivity, and dedication that contributed to team and project success. (December 2024)"
+                            />
+                            <m:StandardListItem
+                                title="Manager"
+                                description="Appreciation for time, efforts, work, and dedication. (December 2024)"
+                            />
+                            <m:StandardListItem
+                                title="Colleague"
+                                description="Recognized for exceptional work, continuous upskilling, and being a valuable team member. (September 2024)"
+                            />
+                            <m:StandardListItem
+                                title="Client, Project Manager, Business Manager, and Delivery Partner Manager"
+                                description="Appreciation for the ShopFloor Automation – Blade project during its first client presentation. (May 2024)"
+                            />
+                            <m:StandardListItem
+                                title="Manager"
+                                description="Appreciation for work, efforts, and achieving project milestones. (April 2024)"
+                            />
+                            <m:StandardListItem
+                                title="Business Manager"
+                                description="Recognition for great work on the NFA Enhancement Support Project. (March 2024)"
+                            />
+                            <m:StandardListItem
+                                title="HackerRank"
+                                description="Achieved a 5-star ranking in Python."
+                            />
+                        </m:List>
+                    </m:VBox>
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>

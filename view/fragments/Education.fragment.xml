@@ -1,0 +1,42 @@
+<c:FragmentDefinition
+    xmlns="sap.uxap"
+    xmlns:c="sap.ui.core"
+    xmlns:m="sap.m"
+    xmlns:l="sap.ui.layout.form"
+>
+    <ObjectPageSection
+        titleUppercase="false"
+        title="Education"
+        importance="Medium"
+    >
+        <subSections>
+            <ObjectPageSubSection
+                title="Savitribai Phule Pune University"
+                titleUppercase="false"
+            >
+                <blocks>
+                    <m:VBox class="sapUiMediumMargin">
+                        <l:SimpleForm
+                            layout="ResponsiveGridLayout"
+                            editable="false"
+                        >
+                            <m:Label text="Speciliazation" />
+                            <m:Text text="Computer Engineering" />
+                            <m:Label text="Degree" />
+                            <m:Text text="B.tech" />
+                            <m:Label text="CGPA" />
+                            <m:Text text="8.92" />
+                            <m:Label text="Duration" />
+                            <m:Text text="June 2019-June 2023" />
+                        </l:SimpleForm>
+                    </m:VBox>
+                </blocks>
+            </ObjectPageSubSection>
+            <ObjectPageSubSection>
+                <blocks>
+                    <m:VBox />
+                </blocks>
+            </ObjectPageSubSection>
+        </subSections>
+    </ObjectPageSection>
+</c:FragmentDefinition>
