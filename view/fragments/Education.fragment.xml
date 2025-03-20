@@ -11,6 +11,7 @@
     >
         <subSections>
             <ObjectPageSubSection
+             mode="Expanded"
                 title="Savitribai Phule Pune University"
                 titleUppercase="false"
             >
@@ -20,14 +21,14 @@
                             layout="ResponsiveGridLayout"
                             editable="false"
                         >
-                            <m:Label text="Speciliazation" />
-                            <m:Text text="Computer Engineering" />
-                            <m:Label text="Degree" />
-                            <m:Text text="B.tech" />
-                            <m:Label text="CGPA" />
-                            <m:Text text="8.92" />
-                            <m:Label text="Duration" />
-                            <m:Text text="June 2019-June 2023" />
+                            <m:Label wrapping="true" text="Speciliazation" />
+                            <m:Text wrapping="true" text="Computer Engineering" />
+                            <m:Label wrapping="true" text="Degree" />
+                            <m:Text wrapping="true" text="B.tech" />
+                            <m:Label wrapping="true" text="CGPA" />
+                            <m:Text wrapping="true" text="8.92" />
+                            <m:Label wrapping="true" text="Duration" />
+                            <m:Text wrapping="true" text="June 2019-June 2023" />
                         </l:SimpleForm>
                     </m:VBox>
                 </blocks>

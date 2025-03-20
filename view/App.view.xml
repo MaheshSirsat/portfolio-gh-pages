@@ -17,7 +17,7 @@
 			<ObjectPageDynamicHeaderTitle>
 				<expandedHeading>
 					<m:Title
-						text="Mahesh Sirsat"
+						wrapping="true" text="Mahesh Sirsat"
 						wrapping="true"
 					/>
 				</expandedHeading>
@@ -33,33 +33,33 @@
 						/>
 						<m:VBox>
 							<m:Title
-								text="Mahesh Sirsat"
+								wrapping="true" text="Mahesh Sirsat"
 								wrapping="true"
 							/>
-							<m:Text text="SAP BTP Consultant" />
+							<m:wrapping="true" text wrapping="true" text="SAP BTP Consultant" />
 						</m:VBox>
 					</m:FlexBox>
 				</snappedHeading>
 				<expandedContent>
-					<m:Text text="SAP BTP Consultant" />
+					<m:wrapping="true" text wrapping="true" text="SAP BTP Consultant" />
 				</expandedContent>
 				<snappedContent>
-					<!-- <m:Text text="SAP BTP Consultant" /> -->
+					<!-- <m:wrapping="true" text wrapping="true" text="SAP BTP Consultant" /> -->
 				</snappedContent>
 				<snappedTitleOnMobile>
-					<!-- <m:Title text="SAP BTP Consultant" /> -->
+					<!-- <m:Title wrapping="true" text="SAP BTP Consultant" /> -->
 				</snappedTitleOnMobile>
 				<actions>
 					<m:Button
 						icon="sap-icon://detail-view"
 						type="Transparent"
-						text="View Resume"
+						wrapping="true" text="View Resume"
 						press="onViewResumeButtonPress"
 					/>
 					<m:Button
 						icon="sap-icon://download"
 						type="Emphasized"
-						text="Download Resume"
+						wrapping="true" text="Download Resume"
 						press="onDownloadResumeButtonPress"
 					/>
 				</actions>
@@ -76,8 +76,8 @@
 					displaySize="L"
 				/>
 				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
-					<m:Label text="+91 9850087347" />
-					<m:Label text="maheshsirsat2001@gmail.com" />
+					<m:Label wrapping="true" text="+91 9850087347" />
+					<m:Label wrapping="true" text="maheshsirsat2001@gmail.com" />
 				</layout:VerticalLayout>
 				<layout:HorizontalLayout class="sapUiSmallMarginBeginEnd">
 					<m:Image
@@ -100,7 +100,7 @@
 					/>
 				</layout:HorizontalLayout>
 				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
-					<m:Label text="Hello! I am Mahesh, a SAP BTP Consultant, specializing in  UI5/Fiori, CAP and Cloud Integration" />
+					<m:Label wrapping="true"   text="Hello! I am Mahesh, a SAP BTP Consultant, specializing in  UI5/Fiori, CAP and Cloud Integration" />
 				</layout:VerticalLayout>
 				<layout:VerticalLayout class="sapUiSmallMarginBeginEnd">
 					<m:HBox alignItems="Center">
@@ -108,7 +108,7 @@
 							type="Transparent"
 							icon="sap-icon://map"
 						/>
-						<m:Label text="Ahmedabad, Gujarat" />
+						<m:Label wrapping="true" text="Ahmedabad, Gujarat" />
 					</m:HBox>
 				</layout:VerticalLayout>
 			</m:FlexBox>

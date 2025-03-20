@@ -4,12 +4,14 @@
     xmlns:m="sap.m"
 >
     <ObjectPageSection
+    
         titleUppercase="false"
         title="Skills"
         importance="Medium"
     >
         <subSections>
             <ObjectPageSubSection
+             mode="Expanded"
                 title="Certifications"
                 titleUppercase="false"
             >
@@ -27,7 +29,7 @@
                                         width="110px"
                                     />
                                     <m:Text
-                                        text="SAP Certified Development Associate - SAP Fiori Application Developer"
+                                        wrapping="true" text="SAP Certified Development Associate - SAP Fiori Application Developer"
                                         class="sapUiSmallMarginBegin"
                                     />
                                 </m:HBox>
@@ -51,7 +53,7 @@
                                         width="110px"
                                     />
                                     <m:Text
-                                        text="SAP Certified Associate - Backend Developer - SAP CAPM"
+                                        wrapping="true" text="SAP Certified Associate - Backend Developer - SAP CAPM"
                                         class="sapUiSmallMarginBegin"
                                     />
                                 </m:HBox>
@@ -75,7 +77,7 @@
                                         width="110px"
                                     />
                                     <m:Text
-                                        text="Learn SAP CAPM - Udemy"
+                                        wrapping="true" text="Learn SAP CAPM - Udemy"
                                         class="sapUiSmallMarginBegin"
                                     />
                                 </m:HBox>

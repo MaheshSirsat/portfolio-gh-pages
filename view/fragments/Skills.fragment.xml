@@ -10,6 +10,7 @@
     >
         <subSections>
             <ObjectPageSubSection
+                mode="Expanded"
                 title="SAP BTP"
                 titleUppercase="false"
             >

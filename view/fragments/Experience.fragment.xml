@@ -11,6 +11,7 @@
     >
         <subSections>
             <ObjectPageSubSection
+             mode="Expanded"
                 title="IBM"
                 titleUppercase="false"
             >
@@ -20,14 +21,14 @@
                             layout="ResponsiveGridLayout"
                             editable="false"
                         >
-                            <m:Label text="Organization" />
-                            <m:Text text="IBM" />
-                            <m:Label text="Duration" />
-                            <m:Text text="October 2023 - Present" />
-                            <m:Label text="Role" />
-                            <m:Text text="SAP UI5 / Fiori BTP Consultant" />
-                            <m:Label text="Location" />
-                            <m:Text text="Ahmedabad, Gujarat" />
+                            <m:Label wrapping="true" text="Organization" />
+                            <m:Text wrapping="true" text="IBM" />
+                            <m:Label wrapping="true" text="Duration" />
+                            <m:Text wrapping="true" text="October 2023 - Present" />
+                            <m:Label wrapping="true" text="Role" />
+                            <m:Text wrapping="true" text="SAP UI5 / Fiori BTP Consultant" />
+                            <m:Label wrapping="true" text="Location" />
+                            <m:Text wrapping="true" text="Ahmedabad, Gujarat" />
                         </l:SimpleForm>
                     </m:VBox>
                 </blocks>
