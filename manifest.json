@@ -79,7 +79,7 @@
         "async": true,
         "viewPath": "com.portfolio.view",
         "controlAggregation": "pages",
-        "controlId": "idAppControl", 
+        "controlId": "idAppControl"
       },
       "routes": [
         {
