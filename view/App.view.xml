@@ -122,7 +122,7 @@
 					<ObjectPageSubSection>
 						<blocks>
 							<core:Fragment
-								fragmentName="com.portfolio.portfolio.view.fragments.profileOverview"
+								fragmentName="com.portfolio.view.fragments.profileOverview"
 								type="XML"
 							/>
 						</blocks>
@@ -130,27 +130,27 @@
 				</subSections>
 			</ObjectPageSection>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Skills"
+				fragmentName="com.portfolio.view.fragments.Skills"
 				type="XML"
 			/>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Experience"
+				fragmentName="com.portfolio.view.fragments.Experience"
 				type="XML"
 			/>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Achievments"
+				fragmentName="com.portfolio.view.fragments.Achievments"
 				type="XML"
 			/>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Certificates"
+				fragmentName="com.portfolio.view.fragments.Certificates"
 				type="XML"
 			/>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Projects"
+				fragmentName="com.portfolio.view.fragments.Projects"
 				type="XML"
 			/>
 			<core:Fragment
-				fragmentName="com.portfolio.portfolio.view.fragments.Education"
+				fragmentName="com.portfolio.view.fragments.Education"
 				type="XML"
 			/>
 		</sections>
