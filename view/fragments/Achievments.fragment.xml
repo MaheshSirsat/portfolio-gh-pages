@@ -17,7 +17,7 @@
                 <blocks>
                     <m:VBox class="sapUiMediumMargin">
                         <m:List headerText="Appreciations">
-                            <m:StandardListItem wrapping="true" wrapping="true"
+                            <m:StandardListItem wrapping="true"  
                                 title="Client"
                                 description="Received appreciation for optimizing the Letter of Credit project, reducing turnaround time for AGEL from 10-15 days to 7-12 days and for ANIL from 15-20 days to 9-14 days per request. (February 2025)"
                             />
