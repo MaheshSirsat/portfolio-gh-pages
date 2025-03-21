@@ -1,3 +1,49 @@
 FormattedText strong {
     font-weight: 500; 
 }
+FormattedText strong {
+    font-weight: 500; 
+}
+:root {
+    --sapHighlightColor: rgba(142, 39, 143, 1) !important;
+    --sapLinkColor: rgba(142, 39, 143, 1) !important;
+    --sapSelectedColor: rgba(142, 39, 143, 1) !important;
+    --sapContent_Selected_MeasureIndicatorColor: rgba(142, 39, 143, 1) !important;
+    --sapContent_BusyColor: rgba(142, 39, 143, 1) !important;
+    --sapContent_DragAndDropActiveColor: rgba(142, 39, 143, 1) !important;
+    --sapContent_Selected_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapContent_Selected_ForegroundColor: rgba(142, 39, 143, 1) !important;
+    --sapShell_Navigation_SelectedColor: rgba(142, 39, 143, 1) !important;
+    --sapShell_Navigation_Selected_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapShell_Navigation_Active_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Hover_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Active_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Emphasized_Hover_Background: rgba(142, 39, 143, 1) !important;
+    --sapButton_Emphasized_Hover_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Emphasized_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Emphasized_Active_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Selected_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Selected_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Selected_Hover_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Information_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Information_Active_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Lite_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Lite_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Neutral_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Neutral_Active_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Track_Selected_Background: rgba(142, 39, 143, 1) !important;
+    --sapButton_Track_Selected_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Track_Selected_Hover_Background: rgba(142, 39, 143, 1) !important;
+    --sapButton_Track_Selected_Hover_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Handle_Selected_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapField_Hover_BackgroundStyle: rgba(142, 39, 143, 1) !important;
+    --sapField_Hover_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapField_Active_BorderColor: rgba(142, 39, 143, 1) !important;
+    --sapList_SelectionBorderColor: rgba(142, 39, 143, 1) !important;
+    --sapTab_ForegroundColor: rgba(142, 39, 143, 1) !important;
+    --sapTab_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapTab_Selected_TextColor: rgba(142, 39, 143, 1) !important;
+    --sapButton_Emphasized_Background: rgba(142, 39, 143, 1) !important;
+}
